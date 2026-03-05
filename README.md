@@ -14,7 +14,5 @@ python3 calculator.py
 python3 day1_basics.py
 
 ```bash
-python3 calculator.py
-python3 day1_basics.py
 
 

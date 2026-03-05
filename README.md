@@ -1,19 +1,19 @@
-# Day 1: Python Basics and Calculator 🐍🧮
+# Day 1: Python Basics and Calculator
 
-## Project Overview 📚
+## Project Overview 
 This is my Day 1 project for my AI career journey. I am learning Python from scratch.
 
 ## What I Learned ✨
-- Basic Python syntax 📝
-- Variables and user input 👨‍💻
+- Basic Python syntax 
+- Variables and user input 
 - Arithmetic operations ➕➖✖️➗
-- Conditional statements (division by zero check) ⚠️
-- Saving and running Python files 💾
+- Conditional statements (division by zero check) 
+- Saving and running Python files 
 
 python3 calculator.py
 python3 day1_basics.py
 
-## Day 2 – Smart Calculator 🧮
+## Day 2 – Smart Calculator 
 
 **What I learned:**
 - Python functions with `return`
@@ -28,7 +28,7 @@ python3 day1_basics.py
 - Show results interactively
 - Exit cleanly
 
-## Day 3 – Advanced Smart Calculator 🔁
+## Day 3 – Advanced Smart Calculator 
 
 ### What I learned
 - Python dictionaries
@@ -44,7 +44,7 @@ An improved calculator that:
 - Handles invalid inputs safely
 - Uses loops for continuous calculations
 
-## Day 4 – NLP Smart Calculator 🤖
+## Day 4 – NLP Smart Calculator 
 
 ### What I Learned ✨
 - Parsing natural language commands from user input
@@ -59,7 +59,7 @@ An improved calculator that:
 - Commands like: `Add 5 and 3`, `Divide 10 by 2`, `Exit`
 - Handle errors and invalid inputs smoothly
 
-## Day 5 – Modular Calculator 🧩
+## Day 5 – Modular Calculator 
 
 ### What I Learned ✨
 - Organizing code across multiple files (modules)

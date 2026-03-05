@@ -44,6 +44,21 @@ An improved calculator that:
 - Handles invalid inputs safely
 - Uses loops for continuous calculations
 
+## Day 4 – NLP Smart Calculator 🤖
+
+### What I Learned ✨
+- Parsing natural language commands from user input
+- Using `str.lower()` to make input case-insensitive
+- Exception handling with `try-except` to catch errors
+- Extracting numbers with `re.findall()` (regular expressions)
+- Handling invalid commands and division by zero gracefully
+
+### Project
+`day4_nlp_calculator.py` – smart NLP calculator that can:
+- Add, Subtract, Multiply, Divide using text commands
+- Commands like: `Add 5 and 3`, `Divide 10 by 2`, `Exit`
+- Handle errors and invalid inputs smoothly
+
 ```bash
 
 

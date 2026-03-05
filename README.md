@@ -27,6 +27,23 @@ python3 day1_basics.py
 - Add, Subtract, Multiply, Divide
 - Show results interactively
 - Exit cleanly
+
+## Day 3 – Advanced Smart Calculator 🔁
+
+### What I learned
+- Python dictionaries
+- Cleaner menu systems
+- Error handling using try/except
+- More professional code structure
+
+### Project
+day3_calculator_loop.py
+
+An improved calculator that:
+- Uses a dictionary to store operations
+- Handles invalid inputs safely
+- Uses loops for continuous calculations
+
 ```bash
 
 

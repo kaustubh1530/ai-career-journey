@@ -59,6 +59,24 @@ An improved calculator that:
 - Commands like: `Add 5 and 3`, `Divide 10 by 2`, `Exit`
 - Handle errors and invalid inputs smoothly
 
+## Day 5 – Modular Calculator 🧩
+
+### What I Learned ✨
+- Organizing code across multiple files (modules)
+- Importing functions using `import` statements
+- Cleaner, scalable project structure
+- Reusing code efficiently
+- Handling edge cases and errors
+
+### Project
+`day5_modular_calculator.py` – modular calculator that can:
+- Add, Subtract, Multiply, Divide
+- Uses a separate `operations.py` file for arithmetic functions
+- Handles menu, input, and exit in the main file
+- Clean, readable, and professional code
+
+
+
 ```bash
 
 

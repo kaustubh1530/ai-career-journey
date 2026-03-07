@@ -75,8 +75,25 @@ An improved calculator that:
 - Handles menu, input, and exit in the main file
 - Clean, readable, and professional code
 
+## Day 6 – GUI Calculator with Tkinter 🖥️
 
+### What I Learned ✨
+- Creating a graphical user interface (GUI) using Tkinter
+- Using Entry widgets for input and display
+- Creating Buttons and assigning commands
+- Handling arithmetic operations with GUI buttons
+- Handling errors like division by zero or empty input
+- Organizing layout using grid system
+- Making the calculator interactive and user-friendly
 
+### Project
+`day6_gui_calculator.py` – GUI calculator that can:
+- Add, Subtract, Multiply, Divide
+- Show input and results in a graphical window
+- Use buttons for numbers and operations (+, -, *, /, =, C)
+- Clear input with the **C** button
+- Handle errors and invalid inputs gracefully
+ 
 ```bash
 
 

@@ -3,7 +3,7 @@
 ## Project Overview 
 This is my Day 1 project for my AI career journey. I am learning Python from scratch.
 
-## What I Learned ✨
+## What I Learned 
 - Basic Python syntax 
 - Variables and user input 
 - Arithmetic operations ➕➖✖️➗
@@ -46,7 +46,7 @@ An improved calculator that:
 
 ## Day 4 – NLP Smart Calculator 
 
-### What I Learned ✨
+### What I Learned 
 - Parsing natural language commands from user input
 - Using `str.lower()` to make input case-insensitive
 - Exception handling with `try-except` to catch errors
@@ -61,7 +61,7 @@ An improved calculator that:
 
 ## Day 5 – Modular Calculator 
 
-### What I Learned ✨
+### What I Learned 
 - Organizing code across multiple files (modules)
 - Importing functions using `import` statements
 - Cleaner, scalable project structure
@@ -75,9 +75,9 @@ An improved calculator that:
 - Handles menu, input, and exit in the main file
 - Clean, readable, and professional code
 
-## Day 6 – GUI Calculator with Tkinter 🖥️
+## Day 6 – GUI Calculator with Tkinter ️
 
-### What I Learned ✨
+### What I Learned
 - Creating a graphical user interface (GUI) using Tkinter
 - Using Entry widgets for input and display
 - Creating Buttons and assigning commands
@@ -93,6 +93,23 @@ An improved calculator that:
 - Use buttons for numbers and operations (+, -, *, /, =, C)
 - Clear input with the **C** button
 - Handle errors and invalid inputs gracefully
+
+## Day 7 – Calculator with History 
+
+### What I Learned 
+- Reading from and writing to files (`open()`, `read()`, `write()`)  
+- Logging calculation history for later reference  
+- Organizing code using functions for clean, reusable logic  
+- Handling `FileNotFoundError` when history file does not exist  
+- Combining loops, conditional statements, and functions for a menu-driven interface  
+
+### Project
+`day7_calculator_history.py` – a calculator that:  
+- Performs addition, subtraction, multiplication, and division  
+- Saves every calculation to a history file (`calc_history.txt`)  
+- Allows viewing past calculations anytime  
+- Handles errors like division by zero gracefully  
+- Provides a continuous menu interface for smooth user experience  
  
 ```bash
 

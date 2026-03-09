@@ -18,8 +18,13 @@ while True:
         break
 
     elif choice in ["1", "2", "3", "4"]:
-        num1 = float(input("Enter first number: "))
-        num2 = float(input("Enter second number: "))
+
+        try:
+            num1 = float(input("Enter first number: "))
+            num2 = float(input("Enter second number: "))
+        except ValueError:
+            print("Invalid input. Please enter numbers only.")
+            continue
 
         if choice == "1":
             result = add(num1, num2)
@@ -42,3 +47,6 @@ while True:
 
     elif choice == "5":
         view_history()
+
+    else:
+        print("Invalid option. Please choose a number between 1 and 6.")

@@ -110,6 +110,42 @@ An improved calculator that:
 - Allows viewing past calculations anytime  
 - Handles errors like division by zero gracefully  
 - Provides a continuous menu interface for smooth user experience  
+
+## Day 8 – Modular Calculator Project 
+
+### What I Learned 
+- How to organize Python projects into multiple files (modules)
+- Importing functions from other Python files using `import`
+- Separating program logic for better readability and maintenance
+- Structuring a project like real-world Python applications
+
+### Project Structure
+
+day8_calculator/
+│
+├── main.py
+├── operations.py
+├── history.py
+├── calc_history.txt
+
+
+### File Responsibilities
+
+**main.py**
+- Controls the calculator menu
+- Handles user input
+- Calls functions from other modules
+
+**operations.py**
+- Contains math functions
+- `add()`
+- `subtract()`
+- `multiply()`
+- `divide()`
+
+**history.py**
+- Saves calculations to a file
+- Displays previous calculations
  
 ```bash
 

@@ -146,6 +146,31 @@ day8_calculator/
 **history.py**
 - Saves calculations to a file
 - Displays previous calculations
+
+# Day 9 – Calculator with Persistent History 📓
+
+## Project Overview
+For Day 9, we enhanced our calculator from Day 8 by adding **persistent history** using a JSON file. Every calculation is now saved in `calc_history.json`, allowing users to **view previous calculations even after closing the program**.
+
+## What I Learned ✨
+- Using Python **JSON** module for reading and writing structured data  
+- Storing calculation history in a file for persistence  
+- Modular programming by separating operations and history functions  
+- Error handling for invalid input and division by zero  
+- Keeping code organized with folders and professional structure  
+
+## Project Files
+- `main.py` – Main calculator program with menu and input handling  
+- `calc_history.json` – Stores calculation history in JSON format  
+- `operations.py` – Arithmetic functions (add, subtract, multiply, divide)  
+- `history.py` – Functions to save and view history  
+
+## Features
+- Add, Subtract, Multiply, Divide  
+- Input validation to prevent crashes on invalid input  
+- Saves calculation history in `calc_history.json`  
+- View past calculations with a menu option  
+- Exit cleanly 
  
 ```bash
 

@@ -171,6 +171,30 @@ For Day 9, we enhanced our calculator from Day 8 by adding **persistent history*
 - Saves calculation history in `calc_history.json`  
 - View past calculations with a menu option  
 - Exit cleanly 
+
+# Day 10 – API Calculator (Flask)
+
+This project builds a simple REST API calculator using Flask.
+
+## Features
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- JSON responses
+
+## Example Requests
+
+Add:
+http://127.0.0.1:5000/add?a=5&b=3
+
+Multiply:
+http://127.0.0.1:5000/multiply?a=6&b=7
+
+## Technologies Used
+- Python
+- Flask
+- REST API
  
 ```bash
 

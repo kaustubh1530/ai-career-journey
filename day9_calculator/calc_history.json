@@ -1,0 +1,26 @@
+[
+    {
+        "operation": "-",
+        "num1": 33.0,
+        "num2": 11.0,
+        "result": 22.0
+    },
+    {
+        "operation": "+",
+        "num1": 897.0,
+        "num2": 3.0,
+        "result": 900.0
+    },
+    {
+        "operation": "*",
+        "num1": 33.0,
+        "num2": 3.0,
+        "result": 99.0
+    },
+    {
+        "operation": "/",
+        "num1": 66.0,
+        "num2": 0.0,
+        "result": "Error: Division by zero"
+    }
+]

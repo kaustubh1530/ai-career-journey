@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask Calculator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="calculator">
+
+<h1>Flask Web Calculator</h1>
+
+<form method="POST">
+
+<input type="number" name="num1" placeholder="First number" required>
+
+<input type="number" name="num2" placeholder="Second number" required>
+
+<br><br>
+
+<button name="operation" value="add">+</button>
+<button name="operation" value="subtract">-</button>
+<button name="operation" value="multiply">*</button>
+<button name="operation" value="divide">/</button>
+
+</form>
+
+{% if result %}
+<h2>Result: {{ result }}</h2>
+{% endif %}
+
+</div>
+
+</body>
+</html>

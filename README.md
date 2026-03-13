@@ -239,7 +239,59 @@ style.css → Styling for the calculator
 3. The form sends a POST request to the Flask backend.
 4. Flask processes the operation.
 5. The result is returned and displayed on the webpage.
+
+# Day 12 – Interactive Web Calculator
+
+This project is part of my **AI & Software Engineering learning journey** where I build projects daily and push them to GitHub.
+
+In Day 12, I built a **fully interactive web calculator** with a real calculator-style user interface.
+
+## Features
+
+- Clickable calculator buttons
+- Supports basic arithmetic operations
+  - Addition (+)
+  - Subtraction (-)
+  - Multiplication (*)
+  - Division (/)
+- Clear display functionality
+- Dynamic calculations using JavaScript
+- Clean and responsive UI
+
+## Technologies Used
+
+- Python
+- Flask
+- HTML
+- CSS
+- JavaScript
+
+## Project Structure
+
+day12_calculator_ui/
+│
+├── app.py
+├── templates/
+│   └── index.html
+│
+├── static/
+│   ├── style.css
+│   └── script.js
+│
+└── README.md
+
+## Learning Outcome
+
+Through this project I learned:
+
+- How Flask serves HTML templates
+- How to connect HTML, CSS, and JavaScript
+- DOM manipulation using JavaScript
+- Creating interactive UI elements
+- Structuring a full-stack web project
+
  
+
 ```bash
 
 

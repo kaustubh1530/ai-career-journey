@@ -290,6 +290,38 @@ Through this project I learned:
 - Creating interactive UI elements
 - Structuring a full-stack web project
 
+# Day 13 – Premium Liquor Inventory Web App
+
+This project is a **web-based inventory management system** for tracking expensive liquor bottles.
+
+## Features
+
+- Dashboard displaying all products
+- Add new product with category, location (Store/Warehouse), quantity
+- Data stored in Excel file
+- Uses Flask, HTML, Bootstrap, Pandas, Openpyxl
+
+## Folder Structure
+
+day13_liquor_inventory_app/
+├── app.py
+├── inventory.xlsx
+├── templates/
+│   ├── index.html
+│   └── add_product.html
+└── static/
+
+## How to Run
+
+1. Install dependencies:  
+`pip3 install flask pandas openpyxl`
+
+2. Run app:  
+`python3 app.py`
+
+3. Open in browser:  
+`http://127.0.0.1:5000`
+
  
 
 ```bash

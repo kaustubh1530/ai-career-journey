@@ -322,6 +322,47 @@ day13_liquor_inventory_app/
 3. Open in browser:  
 `http://127.0.0.1:5000`
 
+# Day 14: Premium Liquor Inventory Management Web App
+
+## Overview
+Day 14 focuses on enhancing the liquor inventory management system built in Day 13.  
+The main goal of this day is to create a **professional dashboard**, and implement **Move Inventory** and **Search Inventory** features using Python Flask, HTML, and Bootstrap.
+
+---
+
+## Features Implemented
+
+1. **Inventory Dashboard**
+   - Displays all products from the Excel file.
+   - Shows:
+     - Product ID
+     - Name
+     - Category
+     - Store Quantity
+     - Warehouse Quantity
+     - Last Updated Date
+   - Clean table layout using **Bootstrap**.
+
+2. **Add Product**
+   - Add a new liquor product to inventory (continued from Day 13).
+
+3. **Move Inventory**
+   - Move bottles between Store and Warehouse.
+   - Updates quantities in the Excel file.
+   - Updates the last modified date automatically.
+
+4. **Search Inventory**
+   - Search products by name.
+   - Displays Store and Warehouse quantities for searched items.
+
+---
+
+## Technology Stack
+- **Backend:** Python Flask
+- **Frontend:** HTML + Bootstrap
+- **Data Storage:** Excel (.xlsx)
+- **Libraries:** pandas, openpyxl
+
  
 
 ```bash

@@ -363,6 +363,77 @@ The main goal of this day is to create a **professional dashboard**, and impleme
 - **Data Storage:** Excel (.xlsx)
 - **Libraries:** pandas, openpyxl
 
+
+# Day 15 – Full Inventory Management System
+
+This project is a Flask-based inventory management system designed for liquor store warehouse tracking.
+
+The system allows warehouse managers to track products, move inventory to the store, monitor stock levels, and keep a record of all inventory activities.
+
+## Features
+
+Dashboard
+- View all inventory items
+- See warehouse and store quantities
+- Dashboard statistics
+
+Add Product
+- Add new liquor products
+- Choose category and location
+- Automatically update inventory database
+
+Move Inventory
+- Move bottles from warehouse to store
+- Record the employee who moved inventory
+- Automatically update quantities
+
+Search Inventory
+- Search for products quickly by name
+
+Activity Log
+- Track every inventory action
+- Record time, product, quantity, and employee
+
+Inventory Check
+- Compare physical stock with system stock
+- Detect mismatches
+
+Low Stock Alerts
+- Warn when warehouse inventory is low
+
+## Technologies Used
+
+Python
+Flask
+Pandas
+Excel Database
+Bootstrap UI
+
+## Project Structure
+
+day15_inventory_system
+│
+app.py
+inventory.xlsx
+│
+templates
+  index.html
+  add_product.html
+  move_inventory.html
+  search.html
+  activity_log.html
+  inventory_check.html
+  layout.html
+│
+static
+  style.css
+
+## Future Improvements
+
+- Barcode scanning for bottles
+- Employee login system
+- Real database (PostgreSQL or MySQL)
+- API integration for store systems
  
 
 ```bash

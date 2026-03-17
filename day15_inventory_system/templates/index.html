@@ -1,0 +1,87 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h2 class="mb-4">Inventory Dashboard</h2>
+
+<div class="row mb-4">
+
+<div class="col-md-4">
+<div class="card text-center shadow">
+<div class="card-body">
+<h5>Total Products</h5>
+<h2>{{ total_products }}</h2>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card text-center shadow">
+<div class="card-body">
+<h5>Warehouse Bottles</h5>
+<h2>{{ total_warehouse }}</h2>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card text-center shadow">
+<div class="card-body">
+<h5>Store Bottles</h5>
+<h2>{{ total_store }}</h2>
+</div>
+</div>
+</div>
+
+</div>
+
+
+{% if low_stock %}
+<div class="alert alert-danger">
+<strong>⚠ Low Warehouse Stock!</strong>
+<ul>
+{% for item in low_stock %}
+<li>{{ item["Product Name"] }} ({{ item["Warehouse Qty"] }} left)</li>
+{% endfor %}
+</ul>
+</div>
+{% endif %}
+
+
+<table class="table table-striped">
+
+<thead>
+
+<tr>
+<th>ID</th>
+<th>Product</th>
+<th>Category</th>
+<th>Store Qty</th>
+<th>Warehouse Qty</th>
+<th>Last Updated</th>
+</tr>
+
+</thead>
+
+<tbody>
+
+{% for p in products %}
+
+<tr>
+
+<td>{{ p["ID"] }}</td>
+<td>{{ p["Product Name"] }}</td>
+<td>{{ p["Category"] }}</td>
+<td>{{ p["Store Qty"] }}</td>
+<td>{{ p["Warehouse Qty"] }}</td>
+<td>{{ p["Last Updated"] }}</td>
+
+</tr>
+
+{% endfor %}
+
+</tbody>
+
+</table>
+
+{% endblock %}

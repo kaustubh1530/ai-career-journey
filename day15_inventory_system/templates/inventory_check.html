@@ -1,0 +1,53 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h2>Inventory Check</h2>
+
+<form method="POST">
+
+<div class="mb-3">
+
+<label>Select Product</label>
+
+<select name="product_id" class="form-control">
+
+{% for product in products %}
+
+<option value="{{ product['ID'] }}">
+
+{{ product["Product Name"] }}
+
+</option>
+
+{% endfor %}
+
+</select>
+
+</div>
+
+<div class="mb-3">
+
+<label>Actual Counted Quantity</label>
+
+<input type="number" name="actual_qty" class="form-control">
+
+</div>
+
+<button class="btn btn-danger">Check Inventory</button>
+
+</form>
+
+{% if result %}
+
+<div class="alert alert-warning mt-4">
+
+Expected: {{ result.expected }} <br>
+Actual: {{ result.actual }} <br>
+Difference: {{ result.difference }}
+
+</div>
+
+{% endif %}
+
+{% endblock %}

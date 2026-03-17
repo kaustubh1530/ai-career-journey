@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h2>Add Product</h2>
+
+<form method="POST">
+
+<div class="mb-3">
+<label>Product Name</label>
+<input type="text" name="product_name" class="form-control" required>
+</div>
+
+<div class="mb-3">
+<label>Category</label>
+
+<select name="category" class="form-control">
+
+<option>Whiskey</option>
+<option>Vodka</option>
+<option>Wine</option>
+<option>Rum</option>
+<option>Gin</option>
+<option>Tequila</option>
+
+</select>
+
+</div>
+
+<div class="mb-3">
+
+<label>Quantity</label>
+<input type="number" name="quantity" class="form-control" required>
+
+</div>
+
+<div class="mb-3">
+
+<label>Location</label>
+
+<select name="location" class="form-control">
+
+<option>Store</option>
+<option>Warehouse</option>
+
+</select>
+
+</div>
+
+<button class="btn btn-success">Add Product</button>
+
+</form>
+
+{% endblock %}

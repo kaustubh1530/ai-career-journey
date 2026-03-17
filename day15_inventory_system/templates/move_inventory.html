@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h2>Move Inventory (Warehouse → Store)</h2>
+
+<form method="POST">
+
+<div class="mb-3">
+
+<label>Select Product</label>
+
+<select name="product_id" class="form-control">
+
+{% for product in products %}
+
+<option value="{{ product['ID'] }}">
+
+{{ product["Product Name"] }}
+
+</option>
+
+{% endfor %}
+
+</select>
+
+</div>
+
+
+<div class="mb-3">
+
+<label>Quantity</label>
+
+<input type="number" name="quantity" class="form-control" required>
+
+</div>
+
+
+<div class="mb-3">
+
+<label>Moved By (Employee Name)</label>
+
+<input type="text" name="employee" class="form-control" placeholder="Enter employee name" required>
+
+</div>
+
+
+<button type="submit" class="btn btn-warning">Move to Store</button>
+
+<a href="/" class="btn btn-secondary">Back</a>
+
+</form>
+
+{% endblock %}

@@ -1,0 +1,59 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h2>Search Product</h2>
+
+<form method="POST" class="mb-4">
+
+<div class="mb-3">
+<label>Product Name</label>
+<input type="text" name="product_name" class="form-control" placeholder="Enter product name">
+</div>
+
+<button type="submit" class="btn btn-primary">Search</button>
+
+<a href="/" class="btn btn-secondary">Back</a>
+
+</form>
+
+
+{% if results %}
+
+<table class="table table-bordered">
+
+<thead>
+<tr>
+<th>ID</th>
+<th>Product</th>
+<th>Category</th>
+<th>Store Qty</th>
+<th>Warehouse Qty</th>
+<th>Last Updated</th>
+</tr>
+</thead>
+
+<tbody>
+
+{% for p in results %}
+
+<tr>
+
+<td>{{ p["ID"] }}</td>
+<td>{{ p["Product Name"] }}</td>
+<td>{{ p["Category"] }}</td>
+<td>{{ p["Store Qty"] }}</td>
+<td>{{ p["Warehouse Qty"] }}</td>
+<td>{{ p["Last Updated"] }}</td>
+
+</tr>
+
+{% endfor %}
+
+</tbody>
+
+</table>
+
+{% endif %}
+
+{% endblock %}

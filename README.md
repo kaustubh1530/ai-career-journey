@@ -585,8 +585,6 @@ python3 main.py
 
 ---
 
-## 🚀 Next Step
-Learn prompt engineering (System vs User roles) and control AI behavior (Day 18)
 
 ```bash
 

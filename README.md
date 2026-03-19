@@ -519,6 +519,75 @@ Upload a PDF resume and get:
 
 ---
 
+
+# Day 17 – OpenAI API Introduction 🤖
+
+## 📌 Overview
+This project demonstrates how to integrate the OpenAI API into a Python application.
+
+The goal of Day 17 was to understand how to:
+- Use API keys
+- Make requests to an AI model
+- Generate text responses using prompts
+
+---
+
+## 🛠️ Tech Stack
+- Python
+- OpenAI API
+
+---
+
+## ⚙️ Features
+- Connect to OpenAI using API key
+- Send prompts to AI model
+- Receive and display AI-generated responses
+
+---
+
+## 📂 Project Structure
+
+day17_openai_intro/
+│── main.py
+│── README.md
+
+---
+
+## 🚀 How to Run
+
+### 1. Create Virtual Environment
+python3 -m venv venv
+source venv/bin/activate
+
+### 2. Install Dependencies
+pip install openai
+
+### 3. Set API Key (Mac)
+export OPENAI_API_KEY="your_api_key_here"
+
+### 4. Run the Program
+python3 main.py
+
+---
+
+## 🧪 Example Prompts Tested
+- Explain Python in one sentence
+- Write a professional email for internship request
+- Summarize a paragraph about AI
+
+---
+
+## 🧠 What I Learned
+- How APIs work in real-world applications
+- How to use OpenAI models from Python
+- Understanding prompts and responses
+- Basics of AI integration in backend systems
+
+---
+
+## 🚀 Next Step
+Learn prompt engineering (System vs User roles) and control AI behavior (Day 18)
+
 ```bash
 
 

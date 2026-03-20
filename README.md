@@ -585,6 +585,96 @@ python3 main.py
 
 ---
 
+# Day 18 – Prompt Engineering (System vs User Roles) 🤖
+
+## 📌 Overview
+This project focuses on understanding prompt engineering by exploring the difference between system and user roles in AI models.
+
+The goal was to learn how to control AI behavior, tone, and response style using structured prompts.
+
+---
+
+## 🛠️ Tech Stack
+- Python
+- OpenAI API
+
+---
+
+## ⚙️ Features
+- Send prompts to AI model
+- Use system role to control AI behavior
+- Use user role to define the task
+- Compare different outputs for the same prompt
+
+---
+
+## 📂 Project Structure
+
+day18_prompt_engineering/
+│── main.py
+│── README.md
+
+---
+
+## 🚀 How to Run
+
+### 1. Create Virtual Environment
+python3 -m venv venv
+source venv/bin/activate
+
+### 2. Install Dependencies
+pip install openai
+
+### 3. Set API Key (Mac)
+export OPENAI_API_KEY="your_api_key_here"
+
+### 4. Run the Program
+python3 main.py
+
+---
+
+## 🧪 Example Experiment
+
+### User Prompt:
+Write a cover letter for a software engineering internship
+
+### System Roles Tested:
+- Helpful assistant
+- Professional career coach
+- Strict recruiter
+- Short and direct assistant
+
+---
+
+## 🧠 Key Learning
+
+### System Role
+Defines the behavior and personality of the AI  
+Example:
+"You are a professional career coach"
+
+### User Role
+Defines the task or request  
+Example:
+"Write a cover letter for a software internship"
+
+---
+
+## 🔍 Observation
+Same user prompt produced different outputs depending on the system role:
+- Tone changed
+- Length changed
+- Level of detail changed
+
+---
+
+## 🔥 What I Learned
+- How prompt design affects AI output
+- Difference between system and user roles
+- How to control AI responses
+- Basics of prompt engineering
+
+---
 
 ```bash
 

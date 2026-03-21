@@ -676,6 +676,106 @@ Same user prompt produced different outputs depending on the system role:
 
 ---
 
+# Day 19 – Temperature & Creativity Control 🤖🔥
+
+## 📌 Overview
+This project explores how to control AI response behavior using the **temperature parameter** in the OpenAI API.
+
+The goal was to understand how to adjust AI outputs between **deterministic (strict)** and **creative (random)** responses.
+
+---
+
+## 🛠️ Tech Stack
+- Python
+- OpenAI API
+
+---
+
+## ⚙️ Features
+- Generate AI responses using different temperature values
+- Compare outputs for the same prompt
+- Understand how creativity and randomness affect results
+
+---
+
+## 📂 Project Structure
+
+day19_temperature_control/
+│── main.py
+│── README.md
+
+---
+
+## 🚀 How to Run
+
+### 1. Create Virtual Environment
+python3 -m venv venv
+source venv/bin/activate
+
+### 2. Install Dependencies
+pip install openai
+
+### 3. Set API Key (Mac)
+export OPENAI_API_KEY="your_api_key_here"
+
+### 4. Run the Program
+python3 main.py
+
+---
+
+## 🧪 Experiment
+
+### Prompt Used:
+Write a short story about a student learning AI
+
+### Temperature Values Tested:
+- 0.2 → Very structured and predictable
+- 0.5 → Balanced output
+- 0.8 → More expressive and creative
+- 1.2 → Highly creative and varied responses
+
+---
+
+## 🧠 Key Learning
+
+### What is Temperature?
+Temperature controls the randomness of AI output.
+
+- Low temperature → More consistent, factual responses
+- High temperature → More creative, diverse responses
+
+---
+
+## 🔍 Observation
+The same prompt produced different outputs based on temperature:
+- Tone and style changed
+- Creativity increased with higher values
+- Structure became less strict at higher values
+
+---
+
+## 🔥 Real-World Usage
+
+### Low Temperature (0.2–0.4)
+- Resume analysis
+- Data extraction
+- Backend APIs
+- Chatbots requiring accuracy
+
+### High Temperature (0.7–1.2)
+- Story writing
+- Cover letters
+- Creative content generation
+
+---
+
+## 🚀 What I Learned
+- How to control AI creativity
+- Importance of temperature in AI applications
+- How to fine-tune AI responses for different use cases
+
+---
+
 ```bash
 
 

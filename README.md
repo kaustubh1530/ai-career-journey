@@ -863,6 +863,105 @@ Instead of repeating API calls, a single reusable function is used.
 
 ---
 
+# Day 21 – AI Cover Letter Generator 🤖📄
+
+## 📌 Overview
+This project is an AI-powered Cover Letter Generator that creates professional and tailored cover letters based on a given job description.
+
+It uses the OpenAI API along with prompt engineering techniques to generate high-quality, job-specific cover letters automatically.
+
+---
+
+## 🛠️ Tech Stack
+- Python
+- OpenAI API
+
+---
+
+## ⚙️ Features
+- Accepts job description as input
+- Generates a professional cover letter using AI
+- Uses prompt engineering for structured output
+- Saves generated cover letter to a text file
+- Reusable AI function for text generation
+
+---
+
+## 📂 Project Structure
+
+day21_ai_cover_letter/
+│── main.py
+│── cover_letter.txt
+│── README.md
+
+---
+
+## 🚀 How to Run
+
+### 1. Create Virtual Environment
+python3 -m venv venv
+source venv/bin/activate
+
+### 2. Install Dependencies
+pip install openai
+
+### 3. Set API Key (Mac)
+export OPENAI_API_KEY="your_api_key_here"
+
+### 4. Run the Program
+python3 main.py
+
+---
+
+## 🧪 Example Input
+
+Enter job description:
+
+Looking for a software engineering intern with knowledge of Python, APIs, and problem solving skills.
+
+---
+
+## 📄 Example Output
+A complete, professional cover letter tailored to the job description will be generated and saved as:
+
+cover_letter.txt
+
+---
+
+## 🧠 Key Concepts
+
+### Prompt Engineering
+The AI is guided using structured instructions to:
+- Maintain professionalism
+- Highlight relevant skills
+- Match the job requirements
+
+---
+
+### Reusable Function
+A reusable function is used to generate AI responses:
+
+def generate_text(prompt, temperature=0.7)
+
+This improves code structure and scalability.
+
+---
+
+## 🔥 Real-World Use Case
+- Automate job applications
+- Generate customized cover letters quickly
+- Improve productivity for job seekers
+
+---
+
+## 🚀 What I Learned
+- Building real-world AI applications
+- Using OpenAI API effectively
+- Designing structured prompts
+- Saving AI-generated outputs to files
+
+---
+
 ```bash
 
 

@@ -776,6 +776,93 @@ The same prompt produced different outputs based on temperature:
 
 ---
 
+# Day 20 – Reusable AI Function 🤖
+
+## 📌 Overview
+This project focuses on building a reusable AI function using the OpenAI API.
+
+Instead of writing API calls repeatedly, a single function is created to generate AI responses dynamically. This introduces the concept of **code abstraction** and prepares the foundation for building scalable AI applications.
+
+---
+
+## 🛠️ Tech Stack
+- Python
+- OpenAI API
+
+---
+
+## ⚙️ Features
+- Reusable function for AI text generation
+- Supports custom prompts
+- Supports temperature control for creativity
+- Clean and scalable code structure
+
+---
+
+## 📂 Project Structure
+
+day20_ai_function/
+│── main.py
+│── README.md
+
+---
+
+## 🚀 How to Run
+
+### 1. Create Virtual Environment
+python3 -m venv venv
+source venv/bin/activate
+
+### 2. Install Dependencies
+pip install openai
+
+### 3. Set API Key (Mac)
+export OPENAI_API_KEY="your_api_key_here"
+
+### 4. Run the Program
+python3 main.py
+
+---
+
+## 💡 Code Example
+
+def generate_text(prompt, temperature=0.7):
+    # Sends prompt to OpenAI API
+    # Returns generated response
+
+---
+
+## 🧪 Example Prompts Tested
+- Write a professional email asking for an internship  
+- Explain Python in simple terms  
+- Write a short motivational quote  
+
+---
+
+## 🧠 Key Learning
+
+### What is Abstraction?
+Abstraction means hiding complex implementation details and exposing only the necessary functionality.
+
+Instead of repeating API calls, a single reusable function is used.
+
+---
+
+## 🔥 Why This Matters
+- Cleaner code  
+- Easier to maintain  
+- Scalable for larger projects  
+- Foundation for real AI applications  
+
+---
+
+## 🚀 What I Learned
+- How to create reusable AI functions  
+- How to structure AI-based code  
+- How to control responses using parameters like temperature  
+
+---
+
 ```bash
 
 

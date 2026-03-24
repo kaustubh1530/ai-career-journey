@@ -985,14 +985,6 @@ Today we start **Week 5** of the AI Career Journey:
 
 ---
 
-## ⚙️ Setup
-
-1. Create a virtual environment:
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-
 # Day 23 — Vector Search with FAISS
 
 ## 🎯 Goal
@@ -1030,12 +1022,6 @@ Build a basic **AI-powered search system** using:
 
 ---
 
-## ⚙️ Setup
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-pip install openai faiss-cpu python-dotenv numpy
 
 ```bash
 

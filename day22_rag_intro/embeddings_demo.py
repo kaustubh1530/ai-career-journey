@@ -11,8 +11,8 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 sentences = [
     "I want a job in AI",
     "Machine learning engineer roles are growing",
-    "I love playing football"
-    "Data science is interesting"
+    "I love playing football",
+    "Data science is interesting",
     "I enjoy cooking food"
 ]
 

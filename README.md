@@ -962,6 +962,37 @@ This improves code structure and scalability.
 
 ---
 
+# Day 22 — RAG & Embeddings Intro
+
+## 🎯 Goal
+Today we start **Week 5** of the AI Career Journey:
+- Understand **RAG (Retrieval-Augmented Generation)**
+- Understand **Embeddings**
+- Generate your **first embeddings** in Python
+
+---
+
+## 🧠 Concepts Learned
+
+### 1. RAG (Retrieval-Augmented Generation)
+- AI answers **based on your data**, not guessing
+- Workflow: `Store knowledge → Search → Provide to AI → Generate answer`
+
+### 2. Embeddings
+- Convert **text → numbers (vectors)**
+- Similar meaning → similar vectors
+- Key for **semantic search** and RAG systems
+
+---
+
+## ⚙️ Setup
+
+1. Create a virtual environment:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+
 ```bash
 
 

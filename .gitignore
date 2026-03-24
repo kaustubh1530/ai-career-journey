@@ -1,31 +1,4 @@
-# Python cache files
+venv/
+.env
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-
-# Python virtual environments
-venv/
-env/
-
-# macOS system files
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Logs and temporary files
-*.log
-*.tmp
-*.bak
-
-# History or output files you don't want to track
-calc_history.txt
-calc_history.json
-
-# IDE / Editor folders
-.idea/
-.vscode/
-
-# Node.js dependencies (if any)
-node_modules/
-package-lock.json

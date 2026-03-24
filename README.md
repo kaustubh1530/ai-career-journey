@@ -993,6 +993,50 @@ Today we start **Week 5** of the AI Career Journey:
 python3 -m venv venv
 source venv/bin/activate
 
+# Day 23 — Vector Search with FAISS
+
+## 🎯 Goal
+Build a basic **AI-powered search system** using:
+- Embeddings
+- FAISS (vector database)
+
+---
+
+## 🧠 Concepts Learned
+
+### 1. Vector Search
+- Instead of keyword matching, we search by **meaning**
+- Example:
+  - Query: "AI jobs"
+  - Result: "Machine learning engineer roles"
+
+---
+
+### 2. Similarity Search
+- Compare vectors using **distance**
+- Closer vectors → more similar meaning
+
+---
+
+### 3. FAISS (Facebook AI Similarity Search)
+- Library for **fast vector search**
+- Stores embeddings and retrieves closest matches
+
+---
+
+### 4. NumPy Arrays
+- FAISS requires embeddings in **NumPy format**
+- Converted list → array using `np.array()`
+
+---
+
+## ⚙️ Setup
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install openai faiss-cpu python-dotenv numpy
+
 ```bash
 
 

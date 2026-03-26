@@ -1022,6 +1022,50 @@ Build a basic **AI-powered search system** using:
 
 ---
 
+# Day 24 — PDF Loader for RAG
+
+## 🎯 Goal
+Learn how to load and extract text from a **PDF document** in Python as the first step of a real-world **RAG pipeline**.
+
+---
+
+## 🧠 Concepts Learned
+
+### 1. Document Loader
+A **document loader** is code that:
+- opens a file
+- reads its content
+- converts it into usable text for AI systems
+
+Today’s file type:
+- **PDF**
+
+---
+
+### 2. Why PDFs Matter in RAG
+Real-world AI apps often need to answer questions from:
+- resumes
+- research papers
+- notes
+- policies
+- manuals
+
+To do that, we first need to:
+1. Load the PDF
+2. Extract the text
+3. Prepare it for chunking and retrieval
+
+---
+
+### 3. Text Extraction
+Using the **pypdf** library, we:
+- opened a PDF file
+- looped through each page
+- extracted text
+- saved the full extracted content into a `.txt` file
+
+---
+
 
 ```bash
 

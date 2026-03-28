@@ -1066,6 +1066,53 @@ Using the **pypdf** library, we:
 
 ---
 
+# Day 25 — Chunking Text for RAG
+
+## 🎯 Goal
+Learn how to split large extracted document text into **smaller chunks** so it can be used effectively in a **RAG (Retrieval-Augmented Generation)** pipeline.
+
+---
+
+## 🧠 Concepts Learned
+
+### 1. What is Chunking?
+Chunking means:
+- breaking large text into **smaller pieces**
+- making it easier for AI systems to process and search
+
+Example:
+- Full document → too large and messy
+- Chunks → smaller, focused, searchable parts
+
+---
+
+### 2. Why Chunking Matters in RAG
+RAG systems do **not** usually send an entire document to the AI.
+
+Instead they:
+1. Split the document into chunks
+2. Convert chunks into embeddings
+3. Search the most relevant chunks
+4. Send only the best chunks to the AI
+
+This makes answers:
+- more accurate
+- more relevant
+- faster
+
+---
+
+### 3. Character-Based Chunking
+In this project, text is split by **character length**.
+
+Example:
+- Chunk size = 500 characters
+- Large text is divided every 500 characters
+
+This is the simplest form of chunking and a strong foundation for learning RAG.
+
+---
+
 
 ```bash
 

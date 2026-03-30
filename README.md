@@ -1112,7 +1112,67 @@ Example:
 This is the simplest form of chunking and a strong foundation for learning RAG.
 
 ---
+# Day 26 — Retrieval System for RAG
 
+## 🎯 Goal
+Build the **retrieval layer** of a RAG (Retrieval-Augmented Generation) system by:
+- converting document chunks into embeddings
+- storing them in FAISS
+- retrieving the most relevant chunks for a user’s question
+
+---
+
+## 🧠 Concepts Learned
+
+### 1. What is Retrieval?
+Retrieval means:
+- searching a document for the **most relevant pieces of information**
+- finding context **before** asking an AI model to answer
+
+Instead of sending the entire document to the AI, we first retrieve only the best-matching chunks.
+
+---
+
+### 2. Query Embedding
+A user question is converted into an **embedding vector**.
+
+This allows the system to compare:
+- the question vector
+- the chunk vectors
+
+and retrieve the chunks with the closest meaning.
+
+---
+
+### 3. FAISS Vector Search
+FAISS is used as a **vector database** to:
+- store chunk embeddings
+- perform fast similarity search
+
+This enables semantic search instead of basic keyword matching.
+
+---
+
+### 4. Top-k Retrieval
+The system returns the **top matching chunks** for a question.
+
+In this project:
+- `k = min(3, len(chunks))`
+
+This ensures the system only asks FAISS for a valid number of results.
+
+---
+
+### 5. Distance Score
+FAISS returns a **distance score** for each result.
+
+Using `IndexFlatL2`:
+- **smaller distance = better match**
+- larger distance = weaker match
+
+This helps measure how relevant each chunk is to the user’s question.
+
+---
 
 ```bash
 

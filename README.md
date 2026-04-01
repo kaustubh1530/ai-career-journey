@@ -1174,6 +1174,44 @@ This helps measure how relevant each chunk is to the user’s question.
 
 ---
 
+# Day 27 — RAG Document Q&A System
+
+## 🎯 Goal
+Build a complete **Retrieval-Augmented Generation (RAG)** pipeline that can:
+- read a document
+- retrieve the most relevant chunks
+- send them to OpenAI
+- generate a final answer grounded in the document
+
+---
+
+## 🧠 Concepts Learned
+
+### 1. What is RAG?
+RAG stands for:
+
+**Retrieval-Augmented Generation**
+
+It combines:
+- **Retrieval** → finding the most relevant document chunks
+- **Generation** → using an LLM to answer based on those chunks
+
+This allows AI systems to answer from **your own data** instead of relying only on built-in knowledge.
+
+---
+
+### 2. Context Injection
+Instead of asking the AI a question directly, we first provide it with the **most relevant context** retrieved from the document.
+
+Example:
+
+```text id="7kthh8"
+Context:
+[retrieved chunks]
+
+Question:
+What skills are mentioned?
+
 ```bash
 
 

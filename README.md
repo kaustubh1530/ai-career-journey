@@ -1212,6 +1212,65 @@ Context:
 Question:
 What skills are mentioned?
 
+
+# Day 28 — Multi-PDF Career RAG Assistant
+
+## 🎯 Goal
+Build a **multi-document Retrieval-Augmented Generation (RAG)** system that can:
+- read multiple PDF files
+- extract and combine their content
+- retrieve relevant chunks using semantic search
+- answer career-related questions using OpenAI
+
+This project upgrades a basic single-document chatbot into a **career-focused AI assistant** powered by multiple PDFs.
+
+---
+
+## 🧠 Concepts Learned
+
+### 1. What is Multi-Document RAG?
+Multi-Document RAG allows an AI system to answer questions using **multiple source documents**, not just one.
+
+Instead of asking questions about a single resume, this system can search across:
+- a resume
+- multiple internship/job descriptions
+- career-related PDFs
+
+This makes the assistant more realistic and more useful.
+
+---
+
+### 2. Multi-Document Ingestion
+The system automatically reads every PDF inside the `documents/` folder.
+
+This means:
+- no hardcoded file names
+- easy scalability
+- professional project structure
+
+This is similar to how real-world document AI systems ingest knowledge bases.
+
+---
+
+### 3. Semantic Search Across Documents
+Each chunk of text is converted into an embedding and stored in **FAISS**.
+
+This allows the system to retrieve information by **meaning**, not just keyword matching.
+
+---
+
+### 4. Career-Focused AI Assistant
+The system is designed to answer questions such as:
+- What skills appear most often across these job descriptions?
+- Which skills in my resume match these roles?
+- What keywords seem missing from my resume?
+- What should I learn next to better fit these jobs?
+
+This turns the project into a useful **career intelligence assistant**.
+
+---
+
+
 ```bash
 
 

@@ -1203,15 +1203,6 @@ This allows AI systems to answer from **your own data** instead of relying only 
 ### 2. Context Injection
 Instead of asking the AI a question directly, we first provide it with the **most relevant context** retrieved from the document.
 
-Example:
-
-```text id="7kthh8"
-Context:
-[retrieved chunks]
-
-Question:
-What skills are mentioned?
-
 
 # Day 28 — Multi-PDF Career RAG Assistant
 
@@ -1268,7 +1259,29 @@ The system is designed to answer questions such as:
 
 This turns the project into a useful **career intelligence assistant**.
 
----
+
+# Day 29 - AI Agents Introduction
+
+## Overview
+This project is my first step into Agentic AI.
+
+Today I learned:
+- What an AI agent is
+- How agents differ from chatbots
+- The role of tools in AI systems
+- How an agent can decide which action to take
+
+## Project
+I built a simple mock Career AI Agent in Python that can:
+- Suggest internship roles
+- Give resume feedback
+- Recommend technical skills to learn
+
+## Concepts Practiced
+- Python functions
+- Conditional logic
+- Basic agent routing
+- Simulated tool calling
 
 
 ```bash

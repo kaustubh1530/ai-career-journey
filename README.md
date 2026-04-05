@@ -1284,6 +1284,39 @@ I built a simple mock Career AI Agent in Python that can:
 - Simulated tool calling
 
 
+# Day 30 - Tool Calling Basics
+
+## Overview
+Today I learned the concept of **tool calling** in AI systems.
+
+Tool calling allows an AI assistant or agent to:
+- understand the user’s request
+- decide which function/tool is needed
+- run that tool
+- return the result
+
+## Project
+I built a simple **Tool Calling Career Assistant** in Python.
+
+It can:
+- perform calculations
+- summarize text
+- extract technical keywords from job descriptions
+
+## Concepts Practiced
+- Python functions
+- Tool-based architecture
+- Conditional logic
+- Input routing
+- Basic agent workflow
+
+## Tools Implemented
+- Calculator Tool
+- Summary Tool
+- Keyword Extraction Tool
+
+
+
 ```bash
 
 

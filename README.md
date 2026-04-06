@@ -1348,6 +1348,34 @@ It can:
 4. Tool returns an observation
 5. Agent produces a final answer
 
+# Day 32 - Job Search AI Agent Setup
+
+## Overview
+Today I started building my first structured **Agentic AI project**:
+
+# Job Search AI Agent
+
+The goal of this project is to simulate an AI assistant that can:
+- search internship/job opportunities
+- summarize relevant roles
+- extract useful technical skills
+- eventually help match jobs to my profile
+
+## What I Built Today
+I created the foundational project structure, including:
+
+- `main.py` → app entry point
+- `agent/router.py` → agent decision and response flow
+- `tools/job_tools.py` → job search logic
+- `data/sample_jobs.json` → sample job listing data
+
+## Concepts Practiced
+- Project folder structure
+- Python modular design
+- Tool-based architecture
+- Agent routing
+- JSON-based mock data handling
+
 
 
 ```bash

@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Software Engineering Intern",
+    "location": "Maryland",
+    "company": "TechNova",
+    "skills": ["Python", "APIs", "Git"]
+  },
+  {
+    "title": "Backend Developer Intern",
+    "location": "Virginia",
+    "company": "CodeAxis",
+    "skills": ["FastAPI", "SQL", "Python"]
+  },
+  {
+    "title": "AI Engineering Intern",
+    "location": "Washington DC",
+    "company": "FutureMind AI",
+    "skills": ["Python", "RAG", "LLM", "APIs"]
+  }
+]

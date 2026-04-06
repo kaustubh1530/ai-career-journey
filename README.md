@@ -1315,6 +1315,39 @@ It can:
 - Summary Tool
 - Keyword Extraction Tool
 
+# Day 31 - ReAct Pattern Basics
+
+## Overview
+Today I learned the **ReAct Pattern**, which stands for:
+
+- **Reason**
+- **Act**
+- **Observe**
+
+This is one of the most important ideas behind modern AI agents.
+
+## Project
+I built a simple **ReAct Career Agent** in Python.
+
+It can:
+- suggest internship roles
+- recommend technical skills
+- give resume feedback
+
+## Concepts Practiced
+- Python functions
+- Conditional routing
+- Tool-based architecture
+- ReAct workflow
+- Thought → Action → Observation → Final Answer
+
+## ReAct Flow
+1. User gives input
+2. Agent reasons about the request
+3. Agent selects a tool
+4. Tool returns an observation
+5. Agent produces a final answer
+
 
 
 ```bash

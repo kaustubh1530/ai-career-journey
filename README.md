@@ -1376,6 +1376,36 @@ I created the foundational project structure, including:
 - Agent routing
 - JSON-based mock data handling
 
+# Day 33 - Job Search AI Agent Tools
+
+## Overview
+Today I improved my Job Search AI Agent by adding more realistic agent tools.
+
+The assistant can now:
+- search internship/job listings
+- summarize job roles
+- extract important technical skills
+
+## What I Built
+This project includes:
+
+- `main.py` → app entry point
+- `agent/router.py` → agent workflow and output
+- `tools/job_tools.py` → search, summarization, and skill extraction tools
+- `data/sample_jobs.json` → mock internship/job listings
+
+## Concepts Practiced
+- Modular Python project structure
+- Tool-based AI design
+- Job search logic
+- Skill extraction
+- AI agent workflow simulation
+
+## Tools Added
+- `search_jobs()`
+- `summarize_job()`
+- `extract_skills()`
+
 
 
 ```bash

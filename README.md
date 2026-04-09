@@ -1406,6 +1406,39 @@ This project includes:
 - `summarize_job()`
 - `extract_skills()`
 
+# Day 34 - Job Search AI Agent Matching Logic
+
+## Overview
+Today I upgraded my Job Search AI Agent to make it more useful in the real world.
+
+The assistant can now:
+- search internship/job opportunities
+- compare user skills against job requirements
+- calculate a match score
+- identify missing skills
+- rank job roles based on fit
+
+## What I Built
+This project includes:
+
+- `main.py` → collects user job interest and skills
+- `agent/router.py` → agent workflow and ranking logic
+- `tools/job_tools.py` → search, summarization, skill extraction, and match calculation tools
+- `data/sample_jobs.json` → mock job listing data
+
+## New Concepts Learned
+### Match Logic
+Compares the user's current skills against job requirements.
+
+### Match Score
+Shows how well a user's skills fit a role as a percentage.
+
+### Missing Skills
+Identifies what the user should learn next to improve job fit.
+
+### Ranking
+Sorts job roles from best match to weakest match.
+
 
 
 ```bash

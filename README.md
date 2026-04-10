@@ -1439,7 +1439,54 @@ Identifies what the user should learn next to improve job fit.
 ### Ranking
 Sorts job roles from best match to weakest match.
 
+# Day 35 - AI Job Search Agent with Live Data
 
+## Overview
+Today I built a real-world AI Job Search Assistant that fetches live job data and intelligently matches roles to user skills.
+
+## Features
+- Fetches real job listings using Adzuna API
+- Uses OpenAI to extract technical skills from job descriptions
+- Matches user skills with job requirements
+- Calculates match scores
+- Filters weak or low-quality job listings
+- Provides direct application links
+
+## Tech Stack
+- Python
+- OpenAI API (LLM)
+- Adzuna Job API
+- JSON data storage
+
+## How It Works
+1. Fetch live jobs from API
+2. Store jobs locally
+3. Extract skills using AI
+4. Compare with user skills
+5. Rank jobs by match score
+
+## Run
+
+Step 1:
+python3 fetch_jobs.py
+
+Step 2:
+python3 main.py
+
+## Example Input
+Query:
+AI internships
+
+Skills:
+Python, Git, FastAPI
+
+## Key Learning
+Built a real-world AI system combining APIs, LLMs, and backend logic to solve a practical problem.
+
+## Future Improvements
+- Add frontend (Streamlit)
+- Deploy to cloud
+- Add user profile saving
 
 ```bash
 
